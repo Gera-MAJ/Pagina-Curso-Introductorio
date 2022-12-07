@@ -2,17 +2,22 @@
     padding: 0px;
     margin: 0px;
 }
-.contenedor {
+
+
+
+
+
+/* .contenedor {
     display: flex;
     flex-wrap: nowrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     align-content: flex-start;
     background-color: aquamarine;
 }
 div {
-    /* flex-shrink: 0; 
-    sirve para que no se enconja menos del tamaño que tiene */
+    flex-shrink: 0; 
+    sirve para que no se encoja menos del tamaño que tiene
     border: 2px red solid;
     margin: 10px;
     padding: 10px;
@@ -24,4 +29,4 @@ div {
     
     width: 400px;
     height: 200px;
-}
+} */
