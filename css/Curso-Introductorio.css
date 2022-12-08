@@ -81,10 +81,30 @@
     padding: 10px;
     align-items: center;
 }
-    .contenedor-abajo img {
-        width: 800px;
-        height: 300px;
+    .contenedor-abajo .boton {
+        position: relative;
+        bottom: 45px;
+        background: linear-gradient(#a3f1f5, #4470e7);
+        border-radius: 5px;
+        border-color: aliceblue;
+        width: 200px;
+        height: 20px;
+        font-size: 20px;
+        color: aliceblue;
+        cursor: pointer;
+        text-align: center;
+        padding: 10px 15px;
     }
+        .contenedor-abajo p {
+            margin: 10px;
+        }
+            .contenedor-abajo h2 {
+                margin: 10px;
+            }
+                .contenedor-abajo img {
+                    width: 800px;
+                    height: 300px;
+                }
 
 
 
