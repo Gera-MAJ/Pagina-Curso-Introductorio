@@ -107,7 +107,7 @@
     flex-wrap: wrap;
     margin: 20px 0px 20px 350px;
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
     position: relative;
 /* sirve para que todo lo que no está dentro del div, no se muestre */
     overflow: hidden;
@@ -144,8 +144,8 @@
                                 left: -240px;
                             }
                             .contenedor-medio2 .fondo-contenedor {
-                                width: 100px;
-                                height: 100px;
+                                width: 150px;
+                                height: 150px;
                                 background: linear-gradient(red, blue);
                                 position: absolute;
                                 left: -120px;
@@ -154,8 +154,8 @@
                                 transition: all 200ms;
                             }
                                 .contenedor-medio2:hover .fondo-contenedor {
-                                    width: 400px;
-                                    height: 400px;
+                                    width: 440px;
+                                    height: 440px;
                                     top: -90px;
                                     left: -40px;
                                 }
