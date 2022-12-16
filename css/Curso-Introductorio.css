@@ -63,6 +63,10 @@
                                         width: 500px;
                                         margin-top: 20px;
                                     }
+                                        .video {
+                                            width: 500px;
+                                            aspect-ratio: 16/9;
+                                        }
 
 .contenedor-medio {
    display: flex; 
