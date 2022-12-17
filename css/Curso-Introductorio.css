@@ -24,7 +24,7 @@
         width: 1000px;
         height: 300px;
     }
-    
+
 .contenedor-arriba {
     display: flex;
     flex-direction: row;
@@ -81,13 +81,12 @@
    margin-top: 20px;
    margin-left: 15px;
 }
-    .contenedor-medio .fotoNota img:hover {
+    .contenedor-medio a .fotoNota img:hover {
         transform: scale(1.08);
         transition: transform 200ms ease-in-out;
     }
-    .contenedor-medio .fotoNota img:hover ~ h3{
+    .contenedor-medio a .fotoNota img:hover ~ h3{
         transform: translateY(10px);
-        
     }
         .contenedor-medio a {
             text-decoration: none;
@@ -96,7 +95,8 @@
             .fotoNota {
                 margin: 10px 20px 10px 20px;
                 position: relative;
-                
+                width: 200px;
+                height: 250px;
             }
                 .contenedor-medio .fotoNota img {
                     width: 200px;
