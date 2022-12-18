@@ -154,26 +154,26 @@
                                 position: relative;
                                 left: -240px;
                             }
-                            .contenedor-medio2 .fondo-contenedor {
-                                width: 150px;
-                                height: 150px;
-                                background: linear-gradient(red, blue);
-                                position: absolute;
-                                left: -120px;
-                                top: 150px;
-                                border-radius: 100%;
-                                transition: all 200ms;
-                            }
-                                .contenedor-medio2:hover .fondo-contenedor {
-                                    width: 440px;
-                                    height: 440px;
-                                    top: -90px;
-                                    left: -40px;
+                                .contenedor-medio2 .fondo-contenedor {
+                                    width: 150px;
+                                    height: 150px;
+                                    background: linear-gradient(red, blue);
+                                    position: absolute;
+                                    left: -110px;
+                                    top: 150px;
+                                    border-radius: 100%;
+                                    transition: all 200ms;
                                 }
-                                .contenedor-medio2:hover h3,
-                                .contenedor-medio2:hover p {
-                                    color: white;
-                                }
+                                    .contenedor-medio2:hover .fondo-contenedor {
+                                        width: 470px;
+                                        height: 400px;
+                                        top: -90px;
+                                        left: -40px;
+                                    }
+                                    .contenedor-medio2:hover h3,
+                                    .contenedor-medio2:hover p {
+                                        color: white;
+                                    }
 
 .contenedor-abajo {
     display: flex;
