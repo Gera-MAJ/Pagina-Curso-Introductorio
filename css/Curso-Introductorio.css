@@ -107,6 +107,10 @@
                         transition: transform 200ms;
                         text-align: center;
                     }
+                        .fotoNota img {
+                            border-radius: 2px;
+                            border: 1px solid rgb(143, 8, 125);
+                        }
 
 .contenedor-medio2 {
     display: flex;
