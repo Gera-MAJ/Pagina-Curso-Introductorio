@@ -190,28 +190,28 @@
 }
     .contenedor-abajo .boton {
         position: relative;
-        bottom: 45px;
-        left: 270px;
+        bottom: 3rem;
+        left: clamp(10rem, 50%, 17rem);
         background: linear-gradient(#a3f1f5, #4470e7);
         border-radius: 5px;
         border-color: aliceblue;
-        width: 200px;
-        height: 18px;
-        font-size: 18px;
+        width: 12rem;
+        height: 1.3rem;
+        font-size: 1.2rem;
         color: aliceblue;
         cursor: pointer;
         text-align: center;
-        padding: 10px 15px;
+        padding: 0.4rem;
         transition: transform 200ms;
     }
         .contenedor-abajo .boton:hover {
             transform: scale(1.1);
         }
             .contenedor-abajo p {
-                margin: 0px 10px 10px 10px;
+                margin: 0.5rem 1rem;
             }
                 .contenedor-abajo h2 {
-                    margin: 10px 0px 15px 0px;
+                    margin: 1rem;
                     color: rgb(33, 96, 151);
                 }
                     .contenedor-abajo img {
