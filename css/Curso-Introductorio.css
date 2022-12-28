@@ -182,7 +182,7 @@
 .contenedor-abajo {
     display: flex;
     flex-direction: column;
-    margin: 30px 10px 10px 10px;
+    margin: 2rem 1.5rem;
     border: 3px solid rgb(33, 96, 151);
     border-radius: 15px;
     padding: 10px;
@@ -215,8 +215,9 @@
                     color: rgb(33, 96, 151);
                 }
                     .contenedor-abajo img {
-                        width: 800px;
-                        height: 300px;
+                        width: 80vw;
+                        max-width: 800px;
+                        aspect-ratio: 16/9;
                     }
 
 
