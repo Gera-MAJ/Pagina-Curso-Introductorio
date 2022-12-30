@@ -102,7 +102,7 @@
             color: #7b3788;
         }
             .fotoNota {
-                margin: 10px 20px 10px 20px;
+                margin: 0px 20px 20px 20px;
                 position: relative;
                 width: 200px;
                 height: 250px;
@@ -112,15 +112,21 @@
                     border-radius: 3px;
                 }
                     .fotoNota h3 {
-                        padding-bottom: 15px;
+                        margin-top: 0.5em;
                         transition: transform 200ms;
                         text-align: center;
                     }
                         .fotoNota img {
-                            background-color: rgb(158, 85, 158);
+                            background-color: rgba(158, 85, 158, 0);
                             border-radius: 2px;
-                            border: 1px solid rgb(143, 8, 125);
+                            border: 1px solid rgb(0, 0, 0);
                         }
+                            .banner-explication {
+                                width: 90vw;
+                                max-width: 800px;
+                                min-width: 300px;
+                                margin-bottom: 3.5rem;
+                            }
 
 .contenedor-medio2 {
     display: flex;
@@ -159,8 +165,7 @@
             }
                 .contenedor-medio2 p {
                     /* width: 100%; */
-                    margin-left: 12px;
-                    margin-top: 10px;
+                    margin: 10px;
                 }
                             .icono {
                                 width: 8vw;
@@ -208,13 +213,14 @@
             border-radius: 5px;
             border-color: aliceblue;
             position:relative;
-            bottom: -2.5rem;
+            bottom: -3rem;
             left: 15vw;
-            height: 2em;
+            height: 1.7em;
             width: 9em;
             cursor: pointer;
             justify-content: center;
             align-items: center;
+            padding-bottom: 0.5em;
             font-size: 1.4em;
             transition: transform 200ms;
         }
@@ -226,7 +232,7 @@
                     transform: scale(1.1);
                 }
                     .contenedor-abajo p {
-                        margin: 0.5rem 1.5rem;
+                        margin: 1em 1.5em 0.5em 1.5em;
                     }
                         .contenedor-abajo h2 {
                             text-align: center;
