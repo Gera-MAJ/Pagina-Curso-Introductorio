@@ -18,10 +18,13 @@
 }    
 .contenedor-banner{
     max-width: 1000px;
+    width: 100vw;
 }
     .contenedor-banner img {
-        width: 1000px;
-        height: 300px;
+        width: 100vw;
+        max-width: 1000px;
+        height: 100hw;
+        max-height: 300px;
     }
 
 .contenedor-arriba {
