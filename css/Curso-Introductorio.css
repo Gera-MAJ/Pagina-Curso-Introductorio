@@ -243,8 +243,9 @@
                         margin: 1em 1.5em 0.5em 1.5em;
                     }
                         .contenedor-abajo h2 {
+                            font-size: 1.4em;
                             text-align: center;
-                            margin: 1rem;
+                            margin: 0em 0.5em 1em 0.5em;
                             color: rgb(33, 96, 151);
                         }
                             .contenedor-abajo img {
