@@ -255,10 +255,23 @@
     }
 } 
 
-@media screen and (max-width: 450px){
+@media screen and (max-device-width: 450px){
     .contenedor-abajo .boton {
         height: 1em;
         font-size: 1.1em;
         width: 9em;
+    }
+
+    .contenedor-medio2 .fondo-contenedor {
+        width: 60rem;
+        height: 50rem;
+        top: -320px;
+        left: -55px;
+        transition: none;
+    }
+
+    .contenedor-medio2 h3,
+    .contenedor-medio2 p {
+        color: white;
     }
 }
