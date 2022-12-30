@@ -264,12 +264,14 @@
 } 
 
 @media screen and (max-device-width: 450px){
-    .contenedor-abajo .boton {
-        height: 1em;
-        font-size: 1.1em;
-        width: 9em;
+    
+    .contenedor-arriba .columna-derecha div h2 {
+        transition: none;
     }
-
+    .contenedor-arriba .columna-derecha div h2:hover {
+        transform: none;
+    }
+    
     .contenedor-medio .fotoNota,
     .contenedor-medio .fotoNota img {
         width: 8em;
@@ -296,4 +298,11 @@
             .fotoNota h3{
                 font-size: 0.8em;
             }
+
+    .contenedor-abajo .boton {
+        height: 1em;
+        font-size: 1.1em;
+        width: 9em;
+    }
+                
 }
