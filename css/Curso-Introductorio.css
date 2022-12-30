@@ -30,9 +30,10 @@
 .contenedor-arriba {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    margin: 1.5rem;
     justify-content: center;
-    padding: 10px;
+    padding: 1.5rem;
+    flex-wrap: wrap;
 }
 
         .contenedor-arriba .columna-derecha {
@@ -69,19 +70,23 @@
                                 }
                                     .contenedor-arriba iframe {
                                         aspect-ratio: 16 / 9;
-                                        width: 500px;
+                                        width: 27rem;
+                                        max-width: 450px;
                                         margin-top: 20px;
                                     }
-                                        .video {
-                                            width: 500px;
+                                        /* .video {
+                                            width: 40vw;
                                             aspect-ratio: 16/9;
-                                        }
+                                            min-width: 300px;
+                                            max-width: 700px;
+                                        } */
 
 .contenedor-medio {
    display: flex; 
    flex-direction: row;
    margin-top: 20px;
    margin-left: 15px;
+   flex-wrap: wrap;
 }
     .contenedor-medio a .fotoNota img:hover {
         transform: scale(1.08);
@@ -188,40 +193,60 @@
     margin: 2rem 1.5rem;
     border: 3px solid rgb(33, 96, 151);
     border-radius: 15px;
-    padding: 10px;
+    padding: 2rem;
     align-items: center;
 }
-    .contenedor-abajo .boton {
-        position: relative;
-        bottom: 3rem;
-        left: clamp(10rem, 50%, 17rem);
-        background: linear-gradient(#a3f1f5, #4470e7);
-        border-radius: 5px;
-        border-color: aliceblue;
-        width: 12rem;
-        height: 1.3rem;
-        font-size: 1.2rem;
-        color: aliceblue;
-        cursor: pointer;
-        text-align: center;
-        padding: 0.4rem;
-        transition: transform 200ms;
+    .contenedor-abajo .link-button {
+        display: flex;
+        /* position: relative; */
+        /* align-items: stretch; */
+        /* width: 80vw; */
+        width: 100%;
+        /* max-width: 53rem; */
+        height: auto;
+        /* background-color: #7b3788; */
+       
     }
-        .contenedor-abajo .boton:hover {
-            transform: scale(1.1);
+        .contenedor-abajo .boton {
+            display: flex;
+            background: linear-gradient(#a3f1f5, #4470e7);
+            border-radius: 5px;
+            border-color: aliceblue;
+            position:relative;
+            top: 0rem;
+            left: 0rem;
+            height: 2em;
+            width: 9em;
+            cursor: pointer;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            font-size: 1.4em;
+            transition: transform 200ms;
         }
-            .contenedor-abajo p {
-                margin: 0.5rem 1rem;
+            .contenedor-abajo .boton p{
+                color: aliceblue;
+                font-family: 'Courier New', Courier, monospace;
             }
-                .contenedor-abajo h2 {
-                    margin: 1rem;
-                    color: rgb(33, 96, 151);
+                .contenedor-abajo .link-button .boton:hover {
+                    transform: scale(1.1);
                 }
-                    .contenedor-abajo img {
-                        width: 80vw;
-                        max-width: 800px;
-                        aspect-ratio: 16/9;
+                    .contenedor-abajo p {
+                        margin: 0.5rem 1.5rem;
                     }
+                        .contenedor-abajo h2 {
+                            text-align: center;
+                            margin: 1rem;
+                            color: rgb(33, 96, 151);
+                        }
+                            .contenedor-abajo img {
+                                width: 80vw;
+                                max-width: 100%;
+                                height: auto; 
+                                aspect-ratio: 16/9;
+                                position: relative;
+                                /* visibility: hidden; */
+                            }
 
 
 
