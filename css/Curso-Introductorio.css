@@ -247,28 +247,9 @@
                                 /* visibility: hidden; */
                             }
 
-
-
-/* .contenedor {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-    background-color: aquamarine;
-}
-div {
-    flex-shrink: 0; 
-    sirve para que no se encoja menos del tamaño que tiene
-    border: 2px red solid;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    background-color: bisque;
-}
-
-#foto {
+@media screen and (max-width: 999px){
     
-    width: 400px;
-    height: 200px;
-} */
+    .contenedor-arriba .columna-derecha {
+        width: 80vw;
+    }
+} 
