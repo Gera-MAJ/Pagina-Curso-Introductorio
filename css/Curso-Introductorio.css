@@ -259,10 +259,12 @@
                                 /* visibility: hidden; */
                             }
 
+/* Esta es la parte del esqueleto de carga */
 #conteiner-charge {
     background-color: aliceblue;
     height: 100%;
     width: 100%;
+    position: fixed;
     -webkit-transition: all 1s ease;
     -o-transition: all 1s ease;
     transition: all 1s ease;
@@ -276,8 +278,8 @@
 
 #charge {
     border: 15px solid #c4c2d2;
-    border-top-color: #2463b1;
-    border-top-style:ridge; 
+    border-top-color: #7f96b3;
+    border-top-style: inset; 
     height: 100px;
     width: 100px;
     border-radius: 100%;
@@ -297,6 +299,8 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
+
+/* Acá va toda la parte que corresponde a la vista movil */
 
 @media screen and (max-width: 999px){
     
