@@ -185,7 +185,7 @@
                                 .contenedor-medio2 .fondo-contenedor {
                                     width: 150px;
                                     height: 150px;
-                                    background: linear-gradient(red, blue);
+                                    background: linear-gradient(rgb(147, 66, 19), rgb(48, 67, 235));
                                     position: absolute;
                                     left: -110px;
                                     top: 150px;
