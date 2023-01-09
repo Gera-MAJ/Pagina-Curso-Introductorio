@@ -279,7 +279,7 @@
 
 #charge {
     border: 15px solid #c4c2d2;
-    border-top-color: #7f96b3;
+    border-top-color: #345dce;
     border-top-style: inset; 
     height: 100px;
     width: 100px;
@@ -296,9 +296,34 @@
     animation: girar 1.5s linear infinite;
 }
 
+
+#charge2 {
+    border: 10px solid #c4c2d2;
+    border-top-color: #345dce;
+    border-top-style: inset; 
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+    -webkit-animation: rotateinverse 1.5s linear infinite;
+    -o-animation: rotateinverse 1.5s linear infinite;
+    animation: rotateinverse 1.5s linear infinite;
+}
+
 @keyframes girar {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
+}
+
+@keyframes rotateinverse {
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
 }
 
 /* Acá va toda la parte que corresponde a la vista movil */
