@@ -12,14 +12,9 @@ function windowCharge(){
 windowCharge();
 
 window.onload = function(){
-
     const conteiner = document.getElementById("conteiner-charge")
     conteiner.style.visibility = "hidden"
     conteiner.style.opacity = "0"
-
-
-    console.log(scroll)
-
 
 }
 
