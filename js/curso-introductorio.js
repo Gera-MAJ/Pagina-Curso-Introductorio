@@ -1,3 +1,4 @@
+
 function windowCharge(){
     const scroll = window.scrollY
         if (scroll > 0){
@@ -17,6 +18,7 @@ window.onload = function(){
     conteiner.style.opacity = "0"
 
 }
+ 
 
 
 
