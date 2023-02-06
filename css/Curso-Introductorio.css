@@ -158,13 +158,13 @@
 .contenedor-medio2:hover {
     box-shadow: -10px 10px 50px -10px rgba(22, 19, 18, 0.682);
 }
-    .contenedor-medio2 a,
+    .contenedor-medio2 h3,
     .contenedor-medio2 p,
     .contenedor-medio2 .icono {
         position: relative;
         z-index: 1;
     }
-        .contenedor-medio2 a {
+        .links {
             text-decoration: none;
             color: #0d0d0d;
         }
